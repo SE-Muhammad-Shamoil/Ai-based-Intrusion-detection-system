@@ -1,0 +1,42 @@
+# Environment and config
+.env
+.env*.local
+backend/.env
+frontend/.env.local
+
+# Virtual environments & local tools
+venv/
+.venv/
+backend/.venv/
+.tools/
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+.next/
+frontend/.next/
+out/
+build/
+dist/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.coverage
+htmlcov/
+
+# Large model artifacts (keep metadata/schemas/samples, ignore large binaries)
+backend/artifacts/*.joblib
+backend/artifacts/*.json.model
+*.parquet
+*.csv
+!backend/artifacts/sample_flows.csv
+*.zip
+
+# OS and IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

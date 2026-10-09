@@ -1,0 +1,68 @@
+{
+  "model": "RandomForestClassifier (binary)",
+  "n_estimators": 200,
+  "max_depth": 25,
+  "min_samples_leaf": 2,
+  "accuracy": 0.8915245591021717,
+  "precision_attack": 0.8470397559347889,
+  "recall_attack": 0.9799479396452837,
+  "f1_attack": 0.9086595007005738,
+  "roc_auc": 0.9837600916123923,
+  "pr_auc": 0.9875052976802732,
+  "false_alarm_rate": 0.2168108108108108,
+  "miss_rate": 0.020052060354716315,
+  "train_seconds": 58.137763023376465,
+  "inference_seconds_per_1000_flows": 0.012965158430925236,
+  "by_attack_type": [
+    {
+      "attack_cat": "Analysis",
+      "share_flagged_as_attack": 0.9970457902511078,
+      "n_flows": 677
+    },
+    {
+      "attack_cat": "Backdoor",
+      "share_flagged_as_attack": 0.9982847341337907,
+      "n_flows": 583
+    },
+    {
+      "attack_cat": "DoS",
+      "share_flagged_as_attack": 0.9982880899975544,
+      "n_flows": 4089
+    },
+    {
+      "attack_cat": "Exploits",
+      "share_flagged_as_attack": 0.9941609773625584,
+      "n_flows": 11132
+    },
+    {
+      "attack_cat": "Fuzzers",
+      "share_flagged_as_attack": 0.8637413394919169,
+      "n_flows": 6062
+    },
+    {
+      "attack_cat": "Generic",
+      "share_flagged_as_attack": 0.9999470086375921,
+      "n_flows": 18871
+    },
+    {
+      "attack_cat": "Normal",
+      "share_flagged_as_attack": 0.2168108108108108,
+      "n_flows": 37000
+    },
+    {
+      "attack_cat": "Reconnaissance",
+      "share_flagged_as_attack": 0.9994279176201373,
+      "n_flows": 3496
+    },
+    {
+      "attack_cat": "Shellcode",
+      "share_flagged_as_attack": 0.9867724867724867,
+      "n_flows": 378
+    },
+    {
+      "attack_cat": "Worms",
+      "share_flagged_as_attack": 1.0,
+      "n_flows": 44
+    }
+  ]
+}
